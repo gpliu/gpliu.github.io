@@ -67,6 +67,210 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/10/28/hello-world/" class="article-date">
+  <time datetime="2014-10-28T13:07:07.000Z" itemprop="datePublished">Oct 28 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/10/28/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<pre><code>&lt;li&gt; &lt;a title=<span class="string">"把这个链接拖到你的Chrome收藏夹工具栏中"</span> href=<span class="comment">'javascript:(function() {</span>
+<span class="function"><span class="keyword">function</span> <span class="title">c</span>(</span>) {
+    var e = document.createElement(<span class="string">"link"</span>);
+    e.setAttribute(<span class="string">"type"</span>, <span class="string">"text/css"</span>);
+    e.setAttribute(<span class="string">"rel"</span>, <span class="string">"stylesheet"</span>);
+    e.setAttribute(<span class="string">"href"</span>, f);
+    e.setAttribute(<span class="string">"class"</span>, l);
+    document.body.appendChild(e)
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">h</span>(</span>) {
+    var e = document.getElementsByClassName(l);
+    <span class="keyword">for</span> (var t = <span class="number">0</span>; t &lt; e.length; t++) {
+        document.body.removeChild(e[t])
+    }
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">p</span>(</span>) {
+    var e = document.createElement(<span class="string">"div"</span>);
+    e.setAttribute(<span class="string">"class"</span>, a);
+    document.body.appendChild(e);
+    setTimeout(<span class="function"><span class="keyword">function</span>(</span>) {
+        document.body.removeChild(e)
+    }, <span class="number">100</span>)
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">d</span>(</span>e) {
+    <span class="keyword">return</span> {
+        height : e.offsetHeight,
+        width : e.offsetWidth
+    }
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">v</span>(</span>i) {
+    var s = d(i);
+    <span class="keyword">return</span> s.height &gt; e &amp;&amp; s.height &lt; n &amp;&amp; s.width &gt; t &amp;&amp; s.width &lt; r
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">m</span>(</span>e) {
+    var t = e;
+    var n = <span class="number">0</span>;
+    <span class="keyword">while</span> (!!t) {
+        n += t.offsetTop;
+        t = t.offsetParent
+    }
+    <span class="keyword">return</span> n
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">g</span>(</span>) {
+    var e = document.documentElement;
+    <span class="keyword">if</span> (!!window.innerWidth) {
+        <span class="keyword">return</span> window.innerHeight
+    } <span class="keyword">else</span> <span class="keyword">if</span> (e &amp;&amp; !isNaN(e.clientHeight)) {
+        <span class="keyword">return</span> e.clientHeight
+    }
+    <span class="keyword">return</span> <span class="number">0</span>
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">y</span>(</span>) {
+    <span class="keyword">if</span> (window.pageYOffset) {
+        <span class="keyword">return</span> window.pageYOffset
+    }
+    <span class="keyword">return</span> Math.<span class="built_in">max</span>(document.documentElement.scrollTop, document.body.scrollTop)
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">E</span>(</span>e) {
+    var t = m(e);
+    <span class="keyword">return</span> t &gt;= w &amp;&amp; t &lt;= b + w
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">S</span>(</span>) {
+    var e = document.createElement(<span class="string">"audio"</span>);
+    e.setAttribute(<span class="string">"class"</span>, l);
+    e.src = i;
+    e.loop = <span class="literal">false</span>;
+    e.addEventListener(<span class="string">"canplay"</span>, <span class="function"><span class="keyword">function</span>(</span>) {
+        setTimeout(<span class="function"><span class="keyword">function</span>(</span>) {
+            x(k)
+        }, <span class="number">500</span>);
+        setTimeout(<span class="function"><span class="keyword">function</span>(</span>) {
+            N();
+            p();
+            <span class="keyword">for</span> (var e = <span class="number">0</span>; e &lt; O.length; e++) {
+                T(O[e])
+            }
+        }, <span class="number">15500</span>)
+    }, <span class="literal">true</span>);
+    e.addEventListener(<span class="string">"ended"</span>, <span class="function"><span class="keyword">function</span>(</span>) {
+        N();
+        h()
+    }, <span class="literal">true</span>);
+    e.innerHTML = <span class="string">" &lt;p&gt;If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.&lt;/p&gt; &lt;p&gt;"</span>;
+    document.body.appendChild(e);
+    e.play()
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">x</span>(</span>e) {
+    e.className += <span class="string">" "</span> + s + <span class="string">" "</span> + o
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">T</span>(</span>e) {
+    e.className += <span class="string">" "</span> + s + <span class="string">" "</span> + u[Math.<span class="built_in">floor</span>(Math.random() * u.length)]
+}
+
+<span class="function"><span class="keyword">function</span> <span class="title">N</span>(</span>) {
+    var e = document.getElementsByClassName(s);
+    var t = <span class="keyword">new</span> RegExp(<span class="string">"\\b"</span> + s + <span class="string">"\\b"</span>);
+    <span class="keyword">for</span> (var n = <span class="number">0</span>; n &lt; e.length; ) {
+        e[n].className = e[n].className.replace(t, <span class="string">""</span>)
+    }
+}
+
+var e = <span class="number">30</span>;
+var t = <span class="number">30</span>;
+var n = <span class="number">350</span>;
+var r = <span class="number">350</span>;
+var i = <span class="string">"//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3"</span>;
+var s = <span class="string">"mw-harlem_shake_me"</span>;
+var o = <span class="string">"im_first"</span>;
+var u = [<span class="string">"im_drunk"</span>, <span class="string">"im_baked"</span>, <span class="string">"im_trippin"</span>, <span class="string">"im_blown"</span>];
+var a = <span class="string">"mw-strobe_light"</span>;
+var f = <span class="string">"//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css"</span>;
+var l = <span class="string">"mw_added_css"</span>;
+var b = g();
+var w = y();
+var C = document.getElementsByTagName(<span class="string">"*"</span>);
+var k = <span class="literal">null</span>;
+<span class="keyword">for</span> (var L = <span class="number">0</span>; L &lt; C.length; L++) {
+    var A = C[L];
+    <span class="keyword">if</span> (v(A)) {
+        <span class="keyword">if</span> (E(A)) {
+            k = A;
+            break
+        }
+    }
+}
+<span class="keyword">if</span> (A === <span class="literal">null</span>) {
+    console.warn(<span class="string">"Could not find a node of the right size. Please try a different page."</span>);
+    <span class="keyword">return</span>
+}
+c();
+S();
+var O = [];
+<span class="keyword">for</span> (var L = <span class="number">0</span>; L &lt; C.length; L++) {
+    var A = C[L];
+    <span class="keyword">if</span> (v(A)) {
+        O.push(A)
+    }
+}
+</code></pre><p>})()    ‘&gt;High一下 </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/10/28/hello-world/" data-id="wh6nzk4h2orcl8me" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-first-blog-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2014/10/23/first-blog-1/" class="article-date">
@@ -175,60 +379,6 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/15/hello-world/" class="article-date">
-  <time datetime="2014-10-15T12:52:36.000Z" itemprop="datePublished">Oct 15 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/15/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/15/hello-world/" data-id="wh6nzk4h2orcl8me" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
   
 </section>
         
@@ -256,6 +406,10 @@
       <ul>
         
           <li>
+            <a href="/2014/10/28/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
             <a href="/2014/10/23/first-blog-1/">first blog</a>
           </li>
         
@@ -265,10 +419,6 @@
         
           <li>
             <a href="/2014/10/15/first-blog/">first blog</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/15/hello-world/">Hello World</a>
           </li>
         
       </ul>
